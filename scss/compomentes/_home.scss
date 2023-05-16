@@ -1,0 +1,21 @@
+@import "../compomentes/vars";
+@import "../compomentes/mediaqueries";
+@import "../compomentes/extend";
+
+main{
+    background-color: $color-principal;
+    text-align: center;
+    h1{
+        @extend %titulo;
+    }
+    p{
+        font-size: medium;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .maquina{
+        height: 200px;
+        width: 200px;
+    }
+}
+

@@ -1,147 +1,17 @@
-header{
-    .navbar-brand{
-        font-weight: 500;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 }
-main{
-    background-color: rgb(165, 93, 177);;
-    text-align: center;
-    h1{
-        padding: 20px;
-        font-size: 2rem;
-    }
-    p{
-        font-size: medium;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .maquina{
-        height: 200px;
-        width: 200px;
-        padding-bottom: 50px;
-        $screen-sm-min: (
-            height: 100px,
-            width: 100px,
-        )
-    }
-    .imagenesEstilos{
-        display: column;
-        flex-direction: column;
-        flex-wrap: wrap;
-        gap: 40px;
-        justify-content: center;
-        padding: 10px;}
-}   
-
-footer{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(101, 68, 101);
-    align-items: center;
-    .LogoAbajo{
-        height: 70px;
-        width: 70px;
-        margin-top: 30px;
-    }
-    .contactate{
-        font-size: small;
-        padding: 30px;
-        color: whitesmoke;
-    }
-    .iconos{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 40px;
-        align-items: center;
-        padding: 0px;
-        .igIcono{
-        width: 25px;
-        height: 25px
-        }
-        .wspIcono{
-            width: 30px;
-            height: 30px;
-        }
-        .wspIcono:hover{
-            width: 40px;
-            height: 40px;
-        }
-        
-        .igIcono:hover{
-            width: 40px;
-            height: 40px;
-        }
-    }    
-}
-
-@media screen and (min-width:500px){
-    h2{
-        font-size: medium;
-    }
-    p{
-        font-size: small;
-    }
-    .maquina{
-        height: 100px;
-        width: 100px;
-    }
-    .logoAbajo{
-        height: 20px;
-        width: 20px;
-    }
-    .estilosTitulo{
-        font-size: x-large;
-    }
-    .linksMinimalistaEIlustracion, .linkUno, .linkDos{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        font-size: medium;
-    }
-    .imagenesEstilos{
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .minimalistaTitulo{
-        font-size: medium;
-    }
-}    
-
-@media screen and (min-width:768px){
-    h2{
-        font-size: large;
-    }
-    p{
-        font-size: medium;
-    }
-    .maquina{
-        height: 150px;
-        width: 150px;
-    }
-    .logoAbajo{
-        height: 30px;
-        width: 30px;
-    }
-    .estilosTitulo{
-        font-size: xx-large;
-    }
-    .linksMinimalistaEIlustracion, .linkUno, .linkDos{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        font-size: medium;
-    }
-    .imagenesEstilos{
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .minimalistaTitulo{
-        font-size: medium;
-    }
-}    
-
-
+   
+@import "../scss/compomentes/home";
+@import "../scss/compomentes/sobremi";
+@import "../scss/compomentes/estilos";
+@import "../scss/compomentes/home";
+@import "../scss/compomentes/mediaqueries";
+@import "../scss/compomentes/vars";
+@import "../scss/compomentes/extend";
+@import "../scss/compomentes/mixin";
 
 
 

@@ -1,0 +1,12 @@
+@import "../compomentes/mediaqueries";
+@import "../compomentes/mixin";
+
+main{
+    .imagenesEstilos{
+        @include display(flex, center);
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 10px;
+    }
+}  
