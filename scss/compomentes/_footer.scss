@@ -16,7 +16,8 @@ footer{
         padding: 30px;
         color: whitesmoke;
     }
-    .iconos{
+    .abajo{
+       .iconos{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -40,6 +41,8 @@ footer{
         .igIcono:hover{
             width: 40px;
             height: 40px;
-        }
+        } 
+    }
+    
     }    
 }
